@@ -3,7 +3,7 @@ import React from 'react';
 const ListHeader = () => {
     return (
         <div>
-            <h1>List Name Here</h1>
+            <h3 className="has-text-primary">List Name Here</h3>
         </div>
     );
 }

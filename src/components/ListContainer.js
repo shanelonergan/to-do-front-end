@@ -1,10 +1,10 @@
 import React from 'react';
-import ListItem from "./ListItem.js"
+import List from './List.js';
 
 const ListContainer = () => {
     return (
-        <div>
-            <ListItem />
+        <div className="content">
+            <List/>
         </div>
     );
 }

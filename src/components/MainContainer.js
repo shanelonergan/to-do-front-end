@@ -1,14 +1,14 @@
 import React from 'react';
 import ListContainer from './ListContainer';
-import ListHeader from './ListHeader';
+import Sidebar from './Sidebar'
 
 const MainContainer = () => {
     return (
-    <div>
-        <ListHeader />
+    <div className="flex-container">
+        <Sidebar />
         <ListContainer />
     </div>
     )
 }
 
-
+export default MainContainer

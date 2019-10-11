@@ -1,15 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import MainContainer from './MainContainer.js'
+// import './App.sass';
+// import 'bulma/css/bulma.css'
+import MainContainer from './components/MainContainer.js'
+import Sidebar from './components/Sidebar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Do</h1>
-      </header>
-      < MainContainer />
+      <section className="hero has-background-primary">
+        <div className="hero-body">
+          <div className="container">
+            <h1 className="title has-text-white has-text-centered">Do</h1>
+          </div>
+        </div>
+      </section>
+      <div>
+        < MainContainer />
+      </div>
     </div>
   );
 }
